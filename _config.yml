@@ -3,7 +3,7 @@ description:      Just a bit of this and that.
 disqus_shortname: xcezzz
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              //localhost:4000 #//xcezzz.github.io
+url:              //xcezzz.github.io
 
 # Owner/author information
 owner:

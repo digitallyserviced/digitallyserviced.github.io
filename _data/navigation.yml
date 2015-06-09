@@ -1,0 +1,10 @@
+# Menu navigation links
+
+- title: My Projects
+  url: /projects/
+
+- title: XZ Backup
+  url: http://www.xzbackup.com
+
+- title: KerioCP
+  url: http://www.keriocp.com

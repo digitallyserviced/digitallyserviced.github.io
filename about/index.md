@@ -21,7 +21,7 @@ This includes an internal/private module used for monitoring the Kerio Connect u
 
 
 ##Ahsay Backup Software
-Developed the control panel for resellers to be able to manage their own backup company with a white-labeled backup management dashboard under my currently employer [XZ Backup](http://www.xzbackup.com).  This includes all the backend services for allowing users to brand the interface and software, as well as keeping backup statistics up to date with alerting and monitoring. As well as building a module for WHMCS that integrates with the XZ Backup product directly, we have also open sourced a module for WHMCS [AhsayWHMCS](http://xzbackup.github.io) for provisioning users to the Ahsay OBS servers for other users of Ahsay to use.
+Developed the control panel for resellers to be able to manage their own backup company with a white-labeled backup management dashboard under my currently employer [XZ Backup](http://www.xzbackup.com).  This includes all the backend services for allowing users to brand the interface and software, as well as keeping backup statistics up to date with alerting and monitoring. As well as building a module for WHMCS that integrates with the XZ Backup product directly, we have also open sourced a module for WHMCS [AhsayWHMCS](http://xzbackup.github.io/AhsayWHMCS/) for provisioning users to the Ahsay OBS servers for other users of Ahsay to use.
 
 
 ##node.js

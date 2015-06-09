@@ -3,7 +3,6 @@ layout: page
 title: xcezzz's projects
 image:
   feature: abstract-1.jpg
-  credit: dargadgetz
 comments: true
 ---
 

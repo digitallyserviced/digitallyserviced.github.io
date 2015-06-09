@@ -3,7 +3,7 @@ description:      Just a bit of this and that.
 disqus_shortname: xcezzz
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              //xcezzz.github.io
+url:              //localhost:4000 #//xcezzz.github.io
 
 # Owner/author information
 owner:
@@ -21,7 +21,7 @@ owner:
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    #+yourid
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-63891621-1  

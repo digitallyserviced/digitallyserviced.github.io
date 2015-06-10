@@ -2,12 +2,23 @@
 layout: page
 title: xcezzz's projects
 image:
-  feature: abstract-1.jpg
+  feature: blessed-ceph-dash.png
 comments: true
 ---
 
-###More To Come
+##My Projects
 
-<div markdown="0">
-	<a href="mailto:{{ site.owner.email }}" class="btn btn-info"><i class="fa fa-fw fa-envelope"></i> Contact Me </a>
-</div>
+##ceph monitoring dashboard
+
+###[Blessed Ceph Dashboard]((https://github.com/xcezzz/blessed-ceph-dash))
+
+Using the blessed-contrib library for building console dashboards in node.js, I created a dashboard to monitor our Ceph cluster. 
+
+![screenshot](/images/blessed-ceph-dash.png)
+
+
+##blessed-contrib widgets
+
+###[blessed-contrib](https://github.com/xcezzz/blessed-contrib)
+
+To make the Ceph dashboard possible I had to add additional widgets to the mix. This included a **stacked guage** which provides a sort of combined progress bar. It also includes a **LCD display** widget for displaying basic text and numbers for showing stats in the dashboard.

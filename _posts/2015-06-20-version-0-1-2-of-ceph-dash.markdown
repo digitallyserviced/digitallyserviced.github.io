@@ -2,6 +2,7 @@
 title: Version 0.1.2 of ceph-dash
 date: 2015-06-20T19:03:20-04:00
 layout: post
+permalink: ceph-dash
 image:
     feature: blessed-ceph-dash.png
 ---

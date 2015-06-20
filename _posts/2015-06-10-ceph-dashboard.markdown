@@ -20,27 +20,32 @@ I did however need to build some extra widgets into blessed-contrib for better d
 
 *The source for the Ceph dashboard is available on GitHub*
 
-[Get it!](https://github.com/xcezzz/blessed-ceph-dash)
+[Get it!](https://www.npmjs.com/package/blessed-ceph-dash)
 
-###Setup Overview
-The dashboard uses an express route so that you can post the output of `ceph status -f json` to it.
+###Installation
 
-Since my Ceph cluster is on a private network and inaccessible from dev machines. The Ceph cluster POSTs data outbound to port 3004 (default port used in this).
-
-###On some host
 {% highlight bash %}
-git clone https://github.com/xcezzz/blessed-ceph-dash.git
-node index
+npm install -g blessed-ceph-dash
 {% endhighlight %}
 
+####Local Usage (ceph admin)
 
-
-###On a machine that can access the Ceph cluster
 {% highlight bash %}
-while true; do 
-	ceph status -f json | curl -X POST \
-	  -H "Content-type: application/json" \
-	  -d @- http://remotehost:3004/; 
-	sleep 2; 
-done
+ceph-dash
 {% endhighlight %}
+
+####SSH Usage (ssh to ceph admin)
+
+{% highlight bash %}
+ceph-dash --remote=remotehost --port 22 --key /path/to/identity
+{% endhighlight %}
+
+Optionally instead of `--key` you can use `--password` and specify it on the command line.
+
+####Dumb Dashboard
+
+{% highlight bash %}
+ceph-dash --noauto --bind 1234
+{% endhighlight %}
+
+Will start the dashboard listening on port 1234. This will output a command you would run on some server that has access to the `ceph` command with admin privileges. It would POST the JSON data to the port so that you can bypass any possible firewalling/internal networking problems that would arise from the other methods.

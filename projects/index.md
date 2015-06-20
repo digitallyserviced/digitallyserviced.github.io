@@ -7,15 +7,26 @@ comments: true
 ---
 
 ##My Projects
+---------
+
 
 ##ceph monitoring dashboard
 
-###[Blessed Ceph Dashboard]((https://github.com/xcezzz/blessed-ceph-dash))
+###[Blessed Ceph Dashboard](https://github.com/xcezzz/blessed-ceph-dash)
 
-Using the blessed-contrib library for building console dashboards in node.js, I created a dashboard to monitor our Ceph cluster. 
+Using the blessed-contrib library for building console dashboards in node.js, I built a dashboard to monitor our Ceph cluster using the console. 
 
 ![screenshot](/images/blessed-ceph-dash.png)
 
+_Get it today!_
+
+{% highlight bash %}
+npm install -g blessed-ceph-dash
+{% endhighlight %}
+
+####[Read More](/ceph-dash)####
+
+---------
 
 ##blessed-contrib widgets
 

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About xcezzz
+title: About digitallyserviced
 image:
   feature: 1500x500.jpeg
 comments: false
 ---
 
-I am a 30 year old developer in Tampa, FL. Worked on many projects inside and outside of my day job. 
+I am a developer working in Tampa, FL. Worked on many projects inside and outside of my day job. 
 
-I build web applications for a various assortment of companies and activites. I specialize in PHP and Node.JS backend and front-end development. Integrating multiple software applications into a single cohesive product is what I do best. 	
+I build web applications for a various assortment of companies and activites. I specialize in PHP and Node.JS backend and front-end development with reactive frameworks like Vue, AngularJS, and React. Integrating multiple software applications into a single cohesive product is what I do best. 	
 
 # Projects:
 

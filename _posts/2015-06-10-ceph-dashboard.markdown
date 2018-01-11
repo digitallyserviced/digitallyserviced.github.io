@@ -14,7 +14,7 @@ Recently I became interested in [blessed-contrib](https://github.com/yaronn/bles
 
 Whipping up a quick dashboard to be able to monitor our microservices as well as our Ceph storage cluster was fun.
 
-I did however need to build some extra widgets into blessed-contrib for better display of certain portions of the statistics. My changes can be seen at my own fork of [blessed-contrib](https://github.com/xcezzz/blessed-contrib). 
+I did however need to build some extra widgets into blessed-contrib for better display of certain portions of the statistics. My changes can be seen at my own fork of [blessed-contrib](https://github.com/digitallyserviced/blessed-contrib). 
 
 ![blessed-ceph-dash](../images/blessed-ceph-dash.png)
 
